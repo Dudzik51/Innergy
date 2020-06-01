@@ -1,5 +1,6 @@
-import { ServiceDiscount, Year, ServiceName, Price } from './interfaces/ServicesInterfaces';
+import { Year, ServiceName, Price } from './interfaces/Aliases';
 import { serviceConfig } from './data';
+import { ServiceDiscount } from './interfaces/ServiceDiscount';
 
 let ServicesPriceForYear = new Map<Year, Map<ServiceName, Price>>();
 let ServiceDependants = new Map<ServiceName, ServiceName[]>();

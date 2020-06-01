@@ -1,4 +1,4 @@
-import { ServiceConfig } from "./interfaces/ServicesInterfaces";
+import { ServiceConfig } from "./interfaces/ServiceConfig";
 
 export const serviceConfig: ServiceConfig = {
     dependencies: [
